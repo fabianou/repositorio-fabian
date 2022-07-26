@@ -1,12 +1,35 @@
 body {
 
-    background-color: moccasin;
+    background-color: rgb(187, 180, 169);
 }
 
 *{
 margin: 100;
 padding: 100 ;
 
+}
+.lista-navegacion{
+list-style: none;
+padding: 0;
+background: rgb(188, 66, 66);
+width:90%
+max-width:500px;
+margin:auto;
+}
+
+.lista-navegacion li a{
+text-decoration: none;
+color: beige
+padding: 20px;
+display; block
+}
+.lista-navegacion li{
+display: inline-block;
+text-align: center;
+
+}
+.lista-navegacion li a:hover{
+    background-color: white;
 }
 
 .grid{
@@ -22,7 +45,7 @@ padding: 100 ;
 .lista-navegacion {
     display: flex;
     
-    gap: 20px;
+    gap: 100px;
 }
  
 
@@ -53,7 +76,7 @@ padding: 100 ;
 } 
 
 h1 {
-    color:red;
+    color:black;
 }
 
  section p {
