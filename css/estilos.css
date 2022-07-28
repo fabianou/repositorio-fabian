@@ -20,8 +20,8 @@ margin:auto;
 .lista-navegacion li a{
 text-decoration: none;
 color: beige
-padding: 20px;
-display; block
+padding:20px;
+display;block
 }
 .lista-navegacion li{
 display: inline-block;
