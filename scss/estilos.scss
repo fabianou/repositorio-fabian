@@ -9,18 +9,23 @@ padding: 100 ;
 
 }
 .lista-navegacion {
-list-style: none;
-padding: 15;
-display: inline-block;}
-a { 
-    text-decoration: none;
-    font-size: 16px ;
-background: rgb(155, 116, 116);
-width:90%
-max-width;
+    list-style: none;}
+    li {
+        padding: 15;
+        display: inline-block;}
+    a { 
+                text-decoration: none;
+                font-size: 16px ;
+                color: dimgrey;
+                }
+         &:hover {
+                background: rgb(155, 116, 116);
+            }
 
-margin:auto 
-}
+
+
+
+
 
 .lista-navegacion li a{
 text-decoration: none;
