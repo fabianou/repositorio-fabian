@@ -1,63 +1,66 @@
+@import"contactos";
 body {
+ background-color:rgb(161, 161, 126)}
+ 
 
-    background-color: rgb(187, 180, 169);
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 60px 0;
+
+   li {
+
+        display: inline-block;
+
+    a {
+        text-decoration: none;
+        font-size: 25px;
+        color:white;
+        padding: 20px;
+    }
+
+    }
+
 }
-
-*{
-margin: 100;
-padding: 100 ;
-
-}
-.lista-navegacion {
-    list-style: none;}
-    li {
-        padding: 15;
-        display: inline-block;}
-    a { 
-                text-decoration: none;
-                font-size: 16px ;
-                color: dimgrey;
-                }
-         &:hover {
-                background: rgb(155, 116, 116);
-            }
-
-
-
-
-
-
-.lista-navegacion li a{
-text-decoration: none;
-color: beige
-padding 100  ;
-display :block
-}
-.lista-navegacion li{
-display: inline-block;
+                
+        
+.boton {
+width: 200px;
+height: 50px;
+background-color: white;
 text-align: center;
+color: black;
+border-radius: 20px;
+border: 1px solid black;
+}
 
+.boton--aceptar{
+@extend .boton;
+background-color: green;
+color: darkorange;
 }
-.lista-navegacion li a:hover{
-    background-color: white;
+
+.boton--cancelar{
+@extend .boton;
+background-color: red;
+color: darkorange;
 }
+
+
 
 .grid{
+
 
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 400px;
-}
-.grid div{
-    margin: auto;
-}
 
-.lista-navegacion {
-    display: flex;
-    
-    gap: 100px;
-}
- 
+ div{
+    margin: auto;
+    }
+
+} 
 
 .card{
     width: 600px ;
@@ -69,37 +72,30 @@ text-align: center;
     height:280px ;
 }
 
+
+.card__parrafo {
+    color: rgb(112, 84, 84);
+    font-size: 18px;
+    font-weight: bold;
+}
 .ubicacion {
     width:600px;
     height:480px ;
     }
 
-.card__parrafo {
-    color: red;
-    font-size: 18px;
-    font-weight: bold;
-}
 
-#productos{
-    display: flex;
-     gap: 20;
-} 
-
-
+    .form  {
     
-.form  {
-
-    background-color: antiquewhite;
-    width:90% ;
-    margin:auto  ;
-    max-width: 400px; 
+    width: 100;
+    margin: 100;
+    max-width: 100px; 
     border-radius:1em ;
     padding: 3.5em 1.5em ;
   }
   .form__container{
-  width: 100px; ;
+  width: 400px; ;
   display: grid;
-  gap: 1em ;
+  gap: 2px;;
   grid-auto-columns: 100% ;
   
   }
@@ -126,18 +122,9 @@ text-align: center;
   padding:.7em 0 ;
   border-radius:.2em ;
   }
-  
-.lista-navegacion {
-list-style-type: none;
-}
 
-.lista-navegacion li a {
-    text-decoration: none;
-}
 
- #productos {
 
-    background-color: rgb(17, 255, 0);}
 
  
 
