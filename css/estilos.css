@@ -1,11 +1,12 @@
-
+body {
+  background-color: hotpink; }
 
 form {
   display: flex;
   flex-direction: column; }
 
 body {
-  background-color: #a1a17e; }
+  background-color: #c1c1ac; }
 
 ul {
   list-style: none;
@@ -49,7 +50,8 @@ ul {
 
 .card__images {
   width: 400px;
-  height: 280px; }
+  height: 280px;
+  border-right: 0cm; }
 
 .card__parrafo {
   color: #705454;
@@ -60,12 +62,44 @@ ul {
   width: 600px;
   height: 480px; }
 
+.body {
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0; }
+
 .form {
-  width: 100;
-  margin: 100;
+  width: 450;
+  margin: auto;
+  background: 0, 0, 0.4;
   max-width: 100px;
   border-radius: 1em;
-  padding: 3.5em 1.5em; }
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px; }
+  .form .h1 {
+    color: beige;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px; }
+    .form .h1 .input, .form .h1 .textarea {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 7px;
+      box-sizing: border-box;
+      font-size: 17px;
+      border: none; }
+
+.boton, .boton--aceptar, .boton--cancelar {
+  background: black;
+  color: aqua;
+  padding: 20px; }
+  .boton .boton:hover, .boton--aceptar .boton:hover, .boton--cancelar .boton:hover, .boton .boton--aceptar:hover, .boton--aceptar .boton--aceptar:hover, .boton--cancelar .boton--aceptar:hover, .boton .boton--cancelar:hover, .boton--aceptar .boton--cancelar:hover, .boton--cancelar .boton--cancelar:hover {
+    cursor: pointer; }
+    @media (max-width: 480px) {
+      .boton .boton:hover form, .boton--aceptar .boton:hover form, .boton--cancelar .boton:hover form, .boton .boton--aceptar:hover form, .boton--aceptar .boton--aceptar:hover form, .boton--cancelar .boton--aceptar:hover form, .boton .boton--cancelar:hover form, .boton--aceptar .boton--cancelar:hover form, .boton--cancelar .boton--cancelar:hover form {
+        width: 100%; } }
 
 .form__container {
   width: 400px;
@@ -77,11 +111,6 @@ ul {
   text-align: center;
   font-size: 1.9rem;
   margin-bottom: .4em; }
-
-.form__input {
-  font-family: inherit;
-  font-size: 1rem;
-  padding: 8em 1em; }
 
 .form__cta {
   font-family: inherit;
