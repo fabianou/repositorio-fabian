@@ -19,13 +19,15 @@ ul {
       font-size: 25px;
       color: white;
       padding: 20px; }
+      ul li a:hover {
+        color: black; }
 
 .boton, .boton--aceptar, .boton--cancelar {
   width: 200px;
-  height: 50px;
-  background-color: white;
+  height: 30px;
+  background-color: black;
   text-align: center;
-  color: black;
+  color: aqua;
   border-radius: 20px;
   border: 1px solid black; }
 
@@ -54,7 +56,7 @@ ul {
   border-right: 0cm; }
 
 .card__parrafo {
-  color: #705454;
+  color: #685959;
   font-size: 18px;
   font-weight: bold; }
 
@@ -62,16 +64,10 @@ ul {
   width: 600px;
   height: 480px; }
 
-.body {
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
-  margin: 0; }
-
 .form {
-  width: 450;
+  width: 450px;
   margin: auto;
   background: 0, 0, 0.4;
-  max-width: 100px;
   border-radius: 1em;
   padding: 10px 20px;
   box-sizing: border-box;
@@ -90,16 +86,6 @@ ul {
       box-sizing: border-box;
       font-size: 17px;
       border: none; }
-
-.boton, .boton--aceptar, .boton--cancelar {
-  background: black;
-  color: aqua;
-  padding: 20px; }
-  .boton .boton:hover, .boton--aceptar .boton:hover, .boton--cancelar .boton:hover, .boton .boton--aceptar:hover, .boton--aceptar .boton--aceptar:hover, .boton--cancelar .boton--aceptar:hover, .boton .boton--cancelar:hover, .boton--aceptar .boton--cancelar:hover, .boton--cancelar .boton--cancelar:hover {
-    cursor: pointer; }
-    @media (max-width: 480px) {
-      .boton .boton:hover form, .boton--aceptar .boton:hover form, .boton--cancelar .boton:hover form, .boton .boton--aceptar:hover form, .boton--aceptar .boton--aceptar:hover form, .boton--cancelar .boton--aceptar:hover form, .boton .boton--cancelar:hover form, .boton--aceptar .boton--cancelar:hover form, .boton--cancelar .boton--cancelar:hover form {
-        width: 100%; } }
 
 .form__container {
   width: 400px;
