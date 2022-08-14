@@ -95,7 +95,7 @@ ul {
 
     .form  {
     
-        width: 450px;
+    
         margin: auto;
         background:(0,0,00.4);
        
@@ -120,9 +120,7 @@ ul {
             font-size: 17px;
             border: none;
 
-
-
-    }
+         }
 
     }
  
@@ -131,9 +129,9 @@ ul {
 
 
 .form__container{
-    width: 400px; ;
+    width: 400px; 
     display: grid;
-    gap: 2px;;
+    gap: 2px;
     grid-auto-columns: 100% ;
   
  }
