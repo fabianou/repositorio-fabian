@@ -1,12 +1,12 @@
 body {
-  background-color: hotpink; }
+  background-color: burlywood; }
 
 form {
   display: flex;
   flex-direction: column; }
 
 body {
-  background-color: #c1c1ac; }
+  background-color: #b9b9af; }
 
 ul {
   list-style: none;
@@ -53,7 +53,10 @@ ul {
 .card__images {
   width: 400px;
   height: 280px;
-  border-right: 0cm; }
+  transition: 0.5 s;
+  border-radius: 20px; }
+  .card__images:hover {
+    transform: scale(1.2); }
 
 .card__parrafo {
   color: #685959;
