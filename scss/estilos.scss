@@ -60,17 +60,27 @@ ul {
     color: darkorange;
 }
 
+.grid {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+@media ( min-width: 768px) {
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 400px;
-
+    justify-items: center;
     div{
         margin: 12px;
     }
 
 } 
 
+}
 
 
 
@@ -80,8 +90,8 @@ ul {
 }
 
 .card__images {
-    width:60%;
-    height:70%;
+    width:250px;
+    height:250px;
     transition: 0.5 s;
     border-radius: 20px;
 
@@ -107,18 +117,28 @@ ul {
 .form{
     
     background-color: rgb(115, 132, 87);
-    margin: 308px;
     padding: 10%;
     border-radius: 100px;
+
+
+
+
 
 div{
     display: flex;
     flex-direction: column;
     
+textarea{
 
+    max-width: 100%;
 }
 
 }
+}
+
+
+
+
 
 
 
